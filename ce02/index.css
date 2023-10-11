@@ -1,0 +1,103 @@
+@font-face{
+    font-family: "Nexa Bold","Nexa Light";
+    src:
+    url(NexaBold.woff),
+    url(NexaLight.woff)
+}
+
+* {
+    text-decoration: none;
+    font-family: "Nexa";
+    /* font-size: small; */
+    box-sizing: border-box;
+}
+
+
+
+:root {
+    --platinum: #eae6e5;
+    --black: #252c34;
+    --orange: #ef670e;
+}
+
+body{
+    padding: 0;
+    top: 0;
+    left: 0;
+    overflow: hidden visible;
+    background-color: var(--black);
+    color: var(--platinum);
+}
+
+.content
+{
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
+.content .profile .name h1
+{
+    font-size: x-large;
+}
+
+.content .profile .name
+{
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.desc{
+    margin-top: 3em;
+    margin-left: 7em;
+    margin-right: 7em;
+    
+}
+
+.desc h1{
+    font-size: x-large;
+}
+
+.desc p 
+{
+    margin-left: 3em;
+    margin-left: 3em;
+    font-size: large;
+    text-align: justify;
+    text-justify: inter-word;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+header {
+    width: 100%;
+    height: 22vh;
+    background: url(Headerpic.png);
+    background-size: 2040px;
+    align-items: center;
+    /* padding: 1rem 5rem; */
+    /* position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1; */
+}
+
+.profile img{
+    /* background-image: url(1x1_Photo.png); */
+    width: 300px;
+    margin-top: 3em;
+    margin-bottom: 0em;
+    margin-left: 5em;
+    margin-right: 0em;
+    background: none;
+}
+.desc head{
+    font-weight: bold;
+}
+
+.profile .name{
+    font-size: x-large;
+}
